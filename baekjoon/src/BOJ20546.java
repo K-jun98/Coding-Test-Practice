@@ -2,7 +2,7 @@ import static java.util.stream.Collectors.toList;
 
 import java.util.*;
 
-public class Main {
+public class BOJ20546 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int price = Integer.parseInt(sc.nextLine());
