@@ -14,7 +14,7 @@ public class BOJ2231 {
             int temp = i;
             int sum = i;
             while (temp != 0) {
-                sum+=temp%10;
+                sum += temp % 10;
                 temp = temp / 10;
             }
             if (sum == N) {
