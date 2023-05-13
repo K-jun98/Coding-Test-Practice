@@ -11,7 +11,7 @@ public class BOJ14501 {
 
         int[] dp = new int[arr.length + 1];
 
-        for (int i = arr.length-1; i >= 0; i--) {
+        for (int i = arr.length - 1; i >= 0; i--) {
             if (i + arr[i][0] <= arr.length) {
                 dp[i] = Math.max(dp[i + 1], arr[i][1] + dp[i + arr[i][0]]);
             } else {
