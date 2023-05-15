@@ -7,6 +7,7 @@ public class BOJ14889 {
     private static int N;
     private static int MIN = Integer.MAX_VALUE;
     private static int[][] arr;
+
     public static void main(String[] args) throws IOException {
         StringTokenizer tokens;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -19,7 +20,7 @@ public class BOJ14889 {
                 arr[i][j] = Integer.parseInt(tokens.nextToken());
             }
         }
-        makeCombination(N/2, 1, new boolean[N+1]);
+        makeCombination(N / 2, 1, new boolean[N + 1]);
         System.out.println(MIN);
     }
 
