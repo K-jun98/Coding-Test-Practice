@@ -18,20 +18,20 @@ public class BOJ15649 {
     private static void matching(List<Integer> list) {
         if (list.size() == M) {
             for (Integer k : list) {
-                System.out.printf(k+" ");
+                System.out.printf(k + " ");
             }
             System.out.println();
             return;
         }
 
         for (int i = 1; i <= N; i++) {
-                if (list.contains(i)) {
-                    continue;
-                }
-                list.add(i);
-                matching(list);
-                list.remove(list.size() - 1);
+            if (list.contains(i)) {
+                continue;
             }
+            list.add(i);
+            matching(list);
+            list.remove(list.size() - 1);
         }
     }
+}
 
