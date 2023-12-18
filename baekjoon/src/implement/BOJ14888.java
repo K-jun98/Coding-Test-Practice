@@ -27,6 +27,7 @@ public class BOJ14888 {
 
     public static void makeValue(int index, int value) {
         if (index +1 == N) {
+                System.out.println(Arrays.toString(O));
             MAX = Math.max(MAX, value);
             MIN = Math.min(MIN, value);
             return;
@@ -34,6 +35,7 @@ public class BOJ14888 {
 
         for (int i = 0; i < 4; i++) {
             if (O[i] != 0) {
+                System.out.println(Arrays.toString(O));
                 O[i]--;
                 switch (i) {
                     case 0:
