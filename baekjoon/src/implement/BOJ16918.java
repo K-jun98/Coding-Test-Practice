@@ -29,6 +29,7 @@ public class BOJ16918 {
                 arr[i][j] = str.charAt(j);
             }
         }
+
         if (N % 2 == 0) {
             char[][] chars = makeDefaultMap();
             for (int i = 0; i < chars.length; i++) {
