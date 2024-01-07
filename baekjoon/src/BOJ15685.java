@@ -47,4 +47,5 @@ public class BOJ15685 {
         }
         System.out.println(answer);
     }
+    
 }
