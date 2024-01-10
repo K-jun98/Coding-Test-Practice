@@ -33,5 +33,6 @@ public class BOJ15649 {
             list.remove(list.size() - 1);
         }
     }
+    
 }
 
