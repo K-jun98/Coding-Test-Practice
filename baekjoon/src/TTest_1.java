@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-class TOSS {
+class TTest_1 {
     HashSet<String> set = new HashSet<>();
     boolean[] check = new boolean[0];
 
@@ -37,7 +37,7 @@ class TOSS {
 
 
     public static void main(String[] args) {
-        TOSS toss = new TOSS();
+        TTest_1 toss = new TTest_1();
         toss.solution("1451232125", 2);
         toss.solution("313253123", 3);
         toss.solution("543261", 5);
